@@ -24,10 +24,13 @@ In practice we operate a Red Amber Green system where Red transactions are autom
 ## The data
 Animation of a small transaction network. 96 benign accounts (blue), 4 money laundering accounts (red) using the "fan-in" pattern.
 ![money laundering network animation](https://raw.githubusercontent.com/PaulMercerAI/AML19/master/tx.gif?token=ANNPM7SPOVQ56HD5OWBPYN25TWEKA)
+
 Ranked list of the top 10 relevant/discriminating features.
 ![top 10 features](https://raw.githubusercontent.com/PaulMercerAI/AML19/master/amlsim_relevance.PNG?token=ANNPM7XS6EVRUXVAHJZ2MIC5TWEWE)
+
 Neural network performance data (90% detection rate)
 ![model performance](https://raw.githubusercontent.com/PaulMercerAI/AML19/master/AMLSim_neural.PNG?token=ANNPM7XIFKCHGVSD2W4DEW25TWEYC)
+
 ## Hints
 Overfitting to the training data can be identified in part by training on half the training data then scoring against the other half.
 
