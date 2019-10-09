@@ -31,12 +31,21 @@ Ranked list of the top 10 relevant/discriminating features.
 Neural network performance data (90% detection rate)
 ![model performance](https://raw.githubusercontent.com/PaulMercerAI/AML19/master/AMLSim_neural.PNG?token=ANNPM7XIFKCHGVSD2W4DEW25TWEYC)
 
+## Pre-requisites
+### Maths
+Standard algebra, polynomials, linear equations, graphing functions, logarithms and derivatives are essential or at least valuable.
+### Programming
+Whilst the examples provided are written in Python and use colab.google.com as the platform the challenge itself is language agnostic. The reviewers are happy to accept code submissions in other languages. If you look at the Jupyter (ipynb) notebook you will see that the code written is not sophisticated and is using only simple logic structures in order to call down onto supporting libraries.
+
+## Optional crash course in Machine Learning
+Google has provided a 15 hour crash course in the machine learning topics that underpin this exercise. It is *not* essential to know machine learning in advance, but might provide benefit. [A self-study guide for aspiring machine learning practitioners](https://developers.google.com/machine-learning/crash-course)
+
 ## Hints
 Overfitting to the training data can be identified in part by training on half the training data then scoring against the other half.
 
 ##TODO
 1. Introduce the Jupyter notebook - not displaying on GitHub
 1. Describe the data schema
-1. Describe the API for submission of models in more detail
+1. Describe the API for submission of models in more detail and provide an example for calling it in the example notebook
 1. Describe the importance of classification and type of money laundering behaviour identified with examples.
-
+1. Add red team hints
